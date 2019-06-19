@@ -1,9 +1,22 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
+  <ion-toolbar color="dark">
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <video autoplay muted loop id="myVideo">
+    <source src="../../assets/background_video.mov" type="video/mp4" />
+  </video>
+  <video autoplay muted loop id="myVideo2">
+    <source src="../../assets/background_video2.mov" type="video/mp4" />
+  </video>
+  <div class="content">
+    <div id="logo">
+    </div>
+    <div id="facebookLogin">
+      <ion-button block color="medium"><ion-icon name="logo-facebook"></ion-icon> Login with Facebook</ion-button>
+    </div>
+  </div>
 </ion-content>

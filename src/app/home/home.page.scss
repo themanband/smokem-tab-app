@@ -1,0 +1,46 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 1;
+    mix-blend-mode: luminosity;
+    height: 100%;
+    width: auto;
+}
+#myVideo2 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .75;
+    height: 100%;
+    width: auto;
+}
+.content {
+    position: fixed;
+}
+#logo {
+    background-image: url("../../assets/logo.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+}
+#facebookLogin {
+    position: fixed;
+    left: 65%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+}
+// #facebookLogin ion-button {
+//     background-color: #4267B2;
+// }

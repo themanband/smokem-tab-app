@@ -26,20 +26,20 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'tab2',
+        path: 'brag',
         children: [
           {
             path: '',
-            loadChildren: '../tab2/tab2.module#Tab2PageModule'
+            loadChildren: '../brag/brag.module#BragPageModule'
           }
         ]
       },
       {
-        path: 'tab3',
+        path: 'brag',
         children: [
           {
             path: '',
-            loadChildren: '../tab3/tab3.module#Tab3PageModule'
+            loadChildren: '../brag/brag.module#BragPageModule'
           }
         ]
       },
